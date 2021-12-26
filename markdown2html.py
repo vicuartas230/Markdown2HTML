@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" This script  """
+""" This script checks if the executable
+    is being used properly and if the file exists. """
 from sys import argv, exit
 from os.path import exists
 
