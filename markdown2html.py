@@ -10,3 +10,4 @@ if __name__ == "__main__":
         exit(1)
     if not exists(argv[1]):
         print("Missing {}".format(argv[1]))
+        exit(1)
